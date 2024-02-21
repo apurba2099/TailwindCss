@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Layout position</title>
+  </head>
+  <body>
+    <!-- Positioning -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Positioning</span>
+    </h1>
+
+    <div class="relative w-1/2 h-12 bg-red-200">
+      <p>Parent Element</p>
+      <div class="absolute bottom-0 right-0 bg-red-500">
+        <p>Absolute Child</p>
+      </div>
+    </div>
+
+    <br />
+    <!-- Top left corner -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Top left corner</span>
+    </h1>
+
+    <div class="relative w-32 h-32 bg-yellow-100 my-2">
+      <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+
+    <br />
+    <!-- Top right corner -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Top right corner</span>
+    </h1>
+
+    <div class="relative w-32 h-32 bg-yellow-100 my-2">
+      <div class="absolute right-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+
+    <br />
+    <!-- Bottom left corner -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Bottom left corner</span>
+    </h1>
+
+    <div class="relative w-32 h-32 bg-yellow-100 my-2">
+      <div class="absolute bottom-0 left-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+
+    <br />
+    <!-- Bottom right corner -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Bottom right corner</span>
+    </h1>
+
+    <div class="relative w-32 h-32 bg-yellow-100 my-2">
+      <div class="absolute bottom-0 right-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+
+    <br />
+    <!-- Span top edge -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Span top edge</span>
+    </h1>
+
+    <div class="relative w-32 h-32 bg-yellow-100 my-2">
+      <div class="absolute inset-x-0 h-16 bg-yellow-300"></div>
+    </div>
+
+    <br />
+    <!-- Span left edge -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Span left edge</span>
+    </h1>
+
+    <div class="relative w-32 h-32 bg-yellow-100 my-2">
+      <div class="absolute inset-y-0 w-16 bg-yellow-300"></div>
+    </div>
+
+    <br />
+    <!-- Span right edge -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Span right edge</span>
+    </h1>
+
+    <div class="relative w-32 h-32 bg-yellow-100 my-2">
+      <div class="absolute inset-y-0 right-0 w-16 bg-yellow-300"></div>
+    </div>
+
+    <br />
+    <!-- Span bottom edge -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Span bottom edge</span>
+    </h1>
+
+    <div class="relative w-32 h-32 bg-yellow-100 my-2">
+      <div class="absolute inset-x-0 bottom-0 h-16 bg-yellow-300"></div>
+    </div>
+
+    <br />
+    <!-- Display Classes -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Display Classes</span>
+    </h1>
+
+    <div class="my-4">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam
+      dolorum distinctio vel
+      <span class="inline font-bold">This is inline.</span> minima nisi
+      dignissimos voluptas animi, cumque rerum dolor
+      <span class="inline-block font-bold">This is inline-block.</span>
+      laudantium. Commodi eaque iure corrupti praesentium hic libero
+      <span class="block font-bold">This is block.</span> facilis provident. Id
+      unde ratione corrupti consequatur ratione optio quis cupiditate aspernatur
+      placeat distinctio animi odio perspiciatis excepturi laboriosam
+      dolores,<span class="hidden font-bold">This is hidden.</span> tempore
+      provident sunt! Dolore, alias culpa unde incidunt ipsum vero minus ea
+      dolorum quo optio aperiam provident. Eveniet perferendis eum earum
+      incidunt id temporibus soluta, repellat nam vel repudiandae.
+    </div>
+
+    <br />
+    <!-- Z-Index -->
+    <h1 class="font-bold text-xl">😎 <span class="underline">Z-Index</span></h1>
+
+    <div class="relative h-36 my-2">
+      <div class="absolute left-10 w-24 h-24 h-24 bg-blue-300 z-10">1</div>
+      <div class="absolute left-20 w-24 h-24 h-24 bg-blue-400 z-20">2</div>
+      <div class="absolute left-40 w-24 h-24 h-24 bg-blue-500 z-30">3</div>
+      <div class="absolute left-60 w-24 h-24 h-24 bg-blue-600 z-40">4</div>
+      <div class="absolute left-80 w-24 h-24 h-24 bg-blue-700 z-50">5</div>
+    </div>
+
+    <br />
+    <!-- Floats -->
+    <h1 class="font-bold text-xl">😎 <span class="underline">Floats</span></h1>
+
+    <div class="w-1/2">
+      <img src="../assets/img/img1.jpg" class="h-48 w-48 float-right" alt="" />
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+        atque corporis quibusdam natus in consequatur facilis perferendis libero
+        aut reiciendis! Eaque saepe officiis ullam animi.
+      </p>
+    </div>
+  </body>
+</html>
+
+<!-- Position Classes
+      static	    position: static;
+      fixed	      position: fixed;
+      absolute	  position: absolute;
+      relative	  position: relative;
+      sticky	    position: sticky;
+    -->
+
+<!-- Display Classes
+      block	            display: block;
+      inline-block	    display: inline-block;
+      inline	          display: inline;
+      flex	            display: flex;
+      inline-flex	      display: inline-flex;
+      table	            display: table;
+      grid	            display: grid;
+      inline-grid	      display: inline-grid;
+      contents	        display: contents;
+      list-item	        display: list-item;
+      hidden	          display: none;
+    -->
+
+<!-- Z-Index
+      z-0	    z-index: 0;
+      z-10	  z-index: 10;
+      z-20	  z-index: 20;
+      z-30	  z-index: 30;
+      z-40	  z-index: 40;
+      z-50	  z-index: 50;
+      z-auto	z-index: auto;
+    -->
+
+<!-- Float
+      float-right	  float: right;
+      float-left	  float: left;
+      float-none	  float: none;
+    -->

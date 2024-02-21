@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Interactivity</title>
+  </head>
+  <body>
+    <!-- Hover State styling -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Hover State styling</span>
+    </h1>
+
+    <button
+      class="bg-fuchsia-700 text-white py-2 px-5 rounded-lg m-3 hover:bg-orange-500 hover:text-lime-300 hover:outline hover:outline-black"
+    >
+      Click Here
+    </button>
+
+    <br />
+    <!-- Focus state styling -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Focus State styling</span>
+    </h1>
+
+    <button
+      class="bg-black text-white py-2 px-5 rounded-lg m-3 focus:bg-green-500 hover:bg-red-500"
+    >
+      Submit
+    </button>
+
+    <input type="text" class="border-2 focus:outline-teal-600" />
+
+    <br />
+    <!-- Active state styling -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Active State styling</span>
+    </h1>
+
+    <button
+      class="bg-black text-white py-2 px-5 rounded-lg m-3 active:bg-yellow-400"
+    >
+      Submit
+    </button>
+
+    <br />
+    <!-- Style based on parent styling -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Style based on parent styling</span>
+    </h1>
+    <!-- Without group -->
+    <a
+      href="#"
+      class="block m-6 max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-emerald-500"
+    >
+      <h3 class="hover:text-white">Card Title</h3>
+      <p class="hover:text-white">This is the card text</p>
+    </a>
+    <!-- With group -->
+    <a
+      href="#"
+      class="group block m-6 max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-emerald-500"
+    >
+      <h3 class="group-hover:text-white">Card Title</h3>
+      <p class="group-hover:text-white">This is the card text</p>
+    </a>
+
+    <br />
+    <!-- Pseudo classes -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Pseudo classes</span>
+    </h1>
+
+    <ul class="m-4">
+      <li class="first:bg-red-500">Item 1</li>
+      <li class="even:bg-teal-900">Item 2</li>
+      <li class="odd:bg-cyan-400">Item 3</li>
+      <li class="even:bg-teal-900">Item 4</li>
+      <li class="odd:bg-cyan-400">Item 5</li>
+      <li class="last:bg-red-600">Item 6</li>
+    </ul>
+
+    <br />
+    <!-- Appearance -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Appearance</span>
+    </h1>
+
+    <!-- Use appearence-none to reset any browser specific styling on an element. This utility is often used when creating custom form components -->
+
+    <select class="m-4 px-4 border-2 border-black appearance-none">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+
+    <br />
+    <!-- Cursor -->
+    <h1 class="font-bold text-xl">😎 <span class="underline">Cursor</span></h1>
+
+    <button class="bg-black text-white py-2 px-5 rounded-lg m-3 cursor-cell">
+      Submit
+    </button>
+
+    <br />
+    <!-- User Select -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">User Select</span>
+    </h1>
+
+    <div class="select-none">Lorem ipsum dolor sit amet consectetur.</div>
+    <div class="select-text">Lorem ipsum dolor sit amet consectetur.</div>
+    <div class="select-all">Lorem ipsum dolor sit amet consectetur.</div>
+    <div class="select-auto">Lorem ipsum dolor sit amet consectetur.</div>
+
+    <br />
+    <!-- Smooth scrolling -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Smooth scrolling</span>
+    </h1>
+
+    <a href="#item" class="block my-6 text-blue-400">Go to Item</a>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis numquam
+      dolor ex maiores harum? Doloribus cumque dolores rerum voluptas! Nobis
+      quos enim magnam eius sunt aspernatur molestias natus harum provident
+      consequuntur consectetur, ducimus nesciunt accusantium quod libero quidem
+      voluptas perferendis quam aliquid ut nulla suscipit a earum? Corrupti,
+      dolorem eum vero voluptas sit molestias esse! Ab velit sit consectetur eum
+      eveniet explicabo temporibus vitae, unde natus ipsum doloribus, illum
+      voluptates recusandae possimus ullam dignissimos eius alias! Aperiam nemo
+      repudiandae eos vel reiciendis facere amet! Cum neque suscipit quas nisi
+      vel exercitationem, officiis incidunt officia tempore? In blanditiis
+      consequatur, suscipit magnam delectus culpa aut odio nostrum nisi! Porro
+      at architecto quis repellat, atque rerum veritatis qui ex delectus? Dolor,
+      alias reiciendis possimus labore eveniet at assumenda reprehenderit a
+      minima excepturi non cum quibusdam praesentium sed magni mollitia odit
+      maxime laborum culpa minus accusamus quisquam aliquid ipsum nostrum!
+      Dolore nulla alias dolor. Maiores consequuntur blanditiis enim asperiores
+      ea excepturi omnis, dignissimos consequatur. Eaque quasi aperiam fugit
+      optio laboriosam fugiat, maiores nam illo quos, reiciendis, itaque quidem.
+      Debitis, velit! Autem dignissimos perferendis, rem necessitatibus mollitia
+      temporibus ratione! Mollitia, accusantium sequi ex aspernatur alias
+      aperiam totam nesciunt excepturi modi odio, adipisci delectus eligendi
+      provident possimus quidem velit molestiae exercitationem vel sed nobis
+      iure veritatis quaerat. Inventore illum eligendi, eaque atque aliquam ex
+      id dolorem nulla deleniti, blanditiis exercitationem ea, reiciendis fugit
+      sequi adipisci eveniet quaerat dicta maiores nobis asperiores voluptatem.
+      Corporis, incidunt temporibus voluptas unde quos quam! Fugiat totam
+      inventore adipisci, dolores impedit ipsum veniam sequi tenetur blanditiis
+      recusandae facilis, sed officiis quis minus possimus omnis quae mollitia
+      cumque non veritatis provident libero reprehenderit accusantium. Natus sed
+      incidunt ex praesentium, necessitatibus quisquam inventore facere possimus
+      rem vitae culpa nemo, officia tenetur voluptatibus laborum consequuntur
+      voluptas adipisci perferendis quibusdam minus aliquid. Excepturi repellat
+      blanditiis facere, neque cupiditate eligendi alias reiciendis corrupti
+      corporis nam praesentium eveniet omnis odit in impedit incidunt maiores
+      mollitia illo enim similique qui ratione commodi unde placeat? Repudiandae
+      cum quo id, quis soluta, minima, reiciendis dolor fugit dolore atque
+      possimus quibusdam dolores iste fugiat inventore dolorum error!
+      Voluptates, unde minus autem laudantium debitis dolorum voluptatibus
+      recusandae necessitatibus odio nostrum atque maxime ut, quis facilis
+      itaque omnis animi, qui fugiat est molestias harum labore. Aspernatur,
+      nulla. Ex, dicta placeat! Dolores ab voluptatum fugit repellendus eos ea
+      ad voluptas voluptatem nam quo ratione expedita sit iure adipisci,
+      veritatis sapiente! Omnis nemo porro perferendis quisquam voluptatem est
+      tempore nisi in dolorem ipsam. Fugit earum beatae repellendus. Ullam quo
+      minus officiis sunt culpa, dolores reiciendis autem rem alias delectus,
+      cumque nam libero nihil incidunt vitae numquam repellat fugiat rerum
+      deserunt similique voluptate reprehenderit. Architecto temporibus iure
+      consequuntur dicta quae rem labore! Ut quos expedita voluptas culpa error
+      debitis ullam nostrum saepe dolorum doloribus explicabo minima corrupti,
+      ipsam illum, sunt vel aspernatur numquam. Odio consectetur sed dolorum
+      commodi quod reprehenderit quaerat placeat, dolores molestiae perferendis
+      eaque quia optio repudiandae sunt voluptatibus, fuga dolorem est rem?
+      Facilis quae consectetur impedit accusamus deleniti, dolores quod odio
+      voluptates doloribus deserunt!
+    </p>
+
+    <div id="item">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae corporis
+      tempora possimus odio minus ea dolores ipsa excepturi, et numquam dolorum
+      ipsam placeat, adipisci deserunt at optio incidunt minima. Repellat quam,
+      labore, debitis voluptates repudiandae tenetur nulla, facilis veniam sed
+      voluptatem commodi inventore perspiciatis excepturi. Nihil eius laudantium
+      dicta harum.
+    </div>
+  </body>
+</html>
+
+<!-- Cursor
+  cursor-auto	          cursor: auto;
+  cursor-default	      cursor: default;
+  cursor-pointer	      cursor: pointer;
+  cursor-wait	          cursor: wait;
+  cursor-text	          cursor: text;
+  cursor-move	          cursor: move;
+  cursor-help	          cursor: help;
+  cursor-not-allowed	  cursor: not-allowed;
+  cursor-none	          cursor: none;
+  cursor-context-menu	  cursor: context-menu;
+  cursor-progress	      cursor: progress;
+  cursor-cell	          cursor: cell;
+  cursor-crosshair	    cursor: crosshair;
+  cursor-vertical-text	cursor: vertical-text;
+  cursor-alias	        cursor: alias;
+  cursor-copy	          cursor: copy;
+  cursor-no-drop	      cursor: no-drop;
+  cursor-grab	          cursor: grab;
+  cursor-grabbing	      cursor: grabbing;
+  cursor-all-scroll	    cursor: all-scroll;
+  cursor-col-resize	    cursor: col-resize;
+  cursor-row-resize	    cursor: row-resize;
+  cursor-n-resize	      cursor: n-resize;
+  cursor-e-resize	      cursor: e-resize;
+  cursor-s-resize	      cursor: s-resize;
+  cursor-w-resize	      cursor: w-resize;
+  cursor-ne-resize	    cursor: ne-resize;
+  cursor-nw-resize	    cursor: nw-resize;
+  cursor-se-resize	    cursor: se-resize;
+  cursor-sw-resize	    cursor: sw-resize;
+  cursor-ew-resize	    cursor: ew-resize;
+  cursor-ns-resize	    cursor: ns-resize;
+  cursor-nesw-resize	  cursor: nesw-resize;
+  cursor-nwse-resize	  cursor: nwse-resize;
+  cursor-zoom-in	      cursor: zoom-in;
+  cursor-zoom-out	      cursor: zoom-out;
+-->

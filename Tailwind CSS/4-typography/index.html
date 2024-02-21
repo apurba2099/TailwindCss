@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    serif: ["ui-serif", "Georgia"],
+                    mono: ["Agbalumo", "ui-monospace"]
+                }
+            }
+        }
+    </script>
+    <title>Typography</title>
+  </head>
+  <body>
+    <!-- Font Family -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Font Family</span>
+    </h1>
+
+    <div class="font-sans">You are awesome!!</div>
+    <div class="font-serif">You are awesome!!</div>
+    <div class="font-mono">You are awesome!!</div>
+
+    <br>
+
+    <!-- Font Size-->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Font Size</span>
+    </h1>
+
+    <div class="text-xs">You are awesome!!</div>
+    <div class="text-sm">You are awesome!!</div>
+    <div class="text-base">You are awesome!!</div>
+    <div class="text-lg">You are awesome!!</div>
+    <div class="text-xl">You are awesome!!</div>
+    <div class="text-2xl">You are awesome!!</div>
+    <div class="text-3xl">You are awesome!!</div>
+
+    <br>
+
+    <!-- Font Weight-->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Font Weight</span>
+    </h1>
+
+    <div class="font-light">You are awesome!!</div>
+    <div class="font-normal">You are awesome!!</div>
+    <div class="font-medium">You are awesome!!</div>
+    <div class="font-semibold">You are awesome!!</div>
+    <div class="font-bold">You are awesome!!</div>
+    <div class="font-black">You are awesome!!</div>
+
+    <br>
+
+    <!-- Letter Spacing-->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Letter Spacing</span>
+    </h1>
+
+    <div class="tracking-tighter">You are awesome!!</div>
+    <div class="tracking-tight">You are awesome!!</div>
+    <div class="tracking-normal">You are awesome!!</div>
+    <div class="tracking-wide">You are awesome!!</div>
+    <div class="tracking-wider">You are awesome!!</div>
+    <div class="tracking-widest">You are awesome!!</div>
+
+    <br>
+
+    <!-- Text alignment -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Text alignment</span>
+    </h1>
+
+    <div class="text-left">You are awesome!!</div>
+    <div class="text-center">You are awesome!!</div>
+    <div class="text-right">You are awesome!!</div>
+    <div class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dignissimos fuga illum quas et error perspiciatis enim facere alias</div>
+
+    <br>
+
+    <!-- Text decoration -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Text decoration</span>
+    </h1>
+
+    <div class="my-6 underline decoration-4 decoration-emerald-500">Tailwind is awesome</div>
+
+    <!-- Decoration Style -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Decoration Style</span>
+    </h1>
+
+    <div class="my-4 underline decoration-2 decoration-double decoration-emerald-500">Tailwind is awesome</div>
+    <div class="my-4 underline decoration-2 decoration-dotted decoration-slate-500">Tailwind is awesome</div>
+    <div class="my-4 underline decoration-2 decoration-dashed decoration-red-500">Tailwind is awesome</div>
+    <div class="my-4 underline decoration-2 decoration-wavy decoration-lime-500">Tailwind is awesome</div>
+
+    <!-- Decoration Offset -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Decoration Offset</span>
+    </h1>
+
+    <div class="my-4 hover:underline underline-offset-4 decoration-2 decoration-red-500 duration-1000">Tailwind is awesome</div>
+    <div class="my-4 underline underline-offset-8 decoration-2 decoration-double decoration-emerald-500">Tailwind is awesome</div>
+    <div class="my-4 underline underline-offset-2 decoration-2 decoration-dotted decoration-slate-500">Tailwind is awesome</div>
+
+    <!-- Text Transform -->
+    <h1 class="font-bold text-xl">
+      😎 <span class="underline">Text Transform</span>
+    </h1>
+
+    <div class="uppercase">Tailwind is awesome</div>
+    <div class="lowercase">Tailwind is awesome</div>
+    <div class="capitalize">Tailwind is awesome</div>
+
+  </body>
+</html>
+
+<!-- Font Family
+  font-sans	
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  font-serif	
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  
+  font-mono	
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+-->
+
+<!-- 
+  Font Size
+  text-xs	    font-size: 0.75rem; /* 12px */
+  text-sm	    font-size: 0.875rem; /* 14px */
+  text-base	  font-size: 1rem; /* 16px */
+  text-lg	    font-size: 1.125rem; /* 18px */
+  text-xl	    font-size: 1.25rem; /* 20px */
+  text-2xl	  font-size: 1.5rem; /* 24px */
+  text-3xl	  font-size: 1.875rem; /* 30px */
+  text-4xl	  font-size: 2.25rem; /* 36px */
+  text-5xl	  font-size: 3rem; /* 48px */
+  text-6xl	  font-size: 3.75rem; /* 60px */
+  text-7xl	  font-size: 4.5rem; /* 72px */
+  text-8xl	  font-size: 6rem; /* 96px */
+  text-9xl	  font-size: 8rem; /* 128px */ 
+-->
+
+<!-- Font Weight
+  font-thin	      font-weight: 100;
+  font-extralight	font-weight: 200;
+  font-light	    font-weight: 300;
+  font-normal	    font-weight: 400;
+  font-medium	    font-weight: 500;
+  font-semibold	  font-weight: 600;
+  font-bold	      font-weight: 700;
+  font-extrabold	font-weight: 800;
+  font-black	    font-weight: 900;
+-->
+
+<!-- Letter Spacing
+  tracking-tighter	letter-spacing: -0.05em;
+  tracking-tight	  letter-spacing: -0.025em;
+  tracking-normal	  letter-spacing: 0em;
+  tracking-wide	    letter-spacing: 0.025em;
+  tracking-wider	  letter-spacing: 0.05em;
+  tracking-widest	  letter-spacing: 0.1em;
+-->
+
+<!-- Text Alignment
+  text-left	    text-align: left;
+  text-center	  text-align: center;
+  text-right	  text-align: right;
+  text-justify	text-align: justify;
+ -->
+
+ <!-- Text Decoration
+  decoration-auto	      text-decoration-thickness: auto;
+  decoration-from-font	text-decoration-thickness: from-font;
+  decoration-0	        text-decoration-thickness: 0px;
+  decoration-1	        text-decoration-thickness: 1px;
+  decoration-2	        text-decoration-thickness: 2px;
+  decoration-4	        text-decoration-thickness: 4px;
+  decoration-8	        text-decoration-thickness: 8px;
+-->
+
+<!-- Decoration offset
+    underline-offset-auto	text-underline-offset: auto;
+    underline-offset-0	text-underline-offset: 0px;
+    underline-offset-1	text-underline-offset: 1px;
+    underline-offset-2	text-underline-offset: 2px;
+    underline-offset-4	text-underline-offset: 4px;
+    underline-offset-8	text-underline-offset: 8px; 
+-->
+
+<!-- Text Transform
+  uppercase	  text-transform: uppercase;
+  lowercase	  text-transform: lowercase;
+  capitalize	text-transform: capitalize;
+  normal-case	text-transform: none;
+-->

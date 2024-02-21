@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Breakpoints</title>
+  </head>
+
+  <body>
+    <header class="bg-purple-900">
+      <div
+        class="container flex justify-between items-center px-6 py-4 max-w-7xl mx-auto sm:p-0"
+      >
+        <a href="#" class="font-bold text-xl text-white cursor-pointer"
+          >Jujutsu Kaisen</a
+        >
+        <div class="space-y-1 cursor-pointer sm:hidden">
+          <div class="bg-white w-7 h-1"></div>
+          <div class="bg-white w-7 h-1"></div>
+          <div class="bg-white w-7 h-1"></div>
+        </div>
+        <nav class="hidden m-5 px-8 text-white sm:flex">
+          <ul class="flex space-x-10">
+            <li
+              class="cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red-600"
+            >
+              Home
+            </li>
+            <li
+              class="cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red-600"
+            >
+              About
+            </li>
+            <li
+              class="cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red-600"
+            >
+              Blogs
+            </li>
+            <li
+              class="cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red-600"
+            >
+              Contact us
+            </li>
+            <li
+              class="cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-red-600"
+            >
+              FAQ
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <div class="container max-w-7xl mx-auto p-10 flex flex-col space-y-8 space-x-0 sm:flex-row sm:space-y-0 sm:space-x-8 sm:p-6">
+        <!-- Card 1 -->
+        <div
+          class="group bg-pink-100 p-5 rounded-xl shadow-xl sm:w-1/2 sm:p-10"
+        >
+          <div class="overflow-hidden rounded-md">
+            <img
+              src="../assets/img/Card (1).jpg"
+              class="h-[200px] w-full object-cover sm:object-top rounded-xl sm:group-hover:scale-110 duration-150"
+              alt=""
+            />
+          </div>
+          <!-- content -->
+          <div class="pt-4 space-y-2">
+            <div class="flex items-center space-x-2">
+              <div
+                class="w-2 h-2 bg-purple-600 rounded-full group-hover:animate-ping"
+              ></div>
+              <h2 class="font-bold text-xl">Yuji Itadori</h2>
+            </div>
+            <p class="text-justify line-clamp-2">
+              Yuji Itadori is a character in Jujutsu Kaisen. He is a first-year
+              student at Tokyo Jujutsu High, where he studies to become a
+              Jujutsu Sorcerer.
+            </p>
+            <button class="bg-purple-400 px-3 py-1 rounded-xl text-white font-semibold hover:scale-105 duration-150">
+              See more
+            </button>
+          </div>
+        </div>
+        
+        <!-- Card 2 -->
+        <div
+          class="group bg-pink-100 p-5 rounded-xl shadow-xl sm:w-1/2 sm:p-10"
+        >
+          <div class="overflow-hidden rounded-md">
+            <img
+              src="../assets/img/Card (2).jpeg"
+              class="h-[200px] w-full object-cover sm:object-top rounded-xl sm:group-hover:scale-110 duration-150"
+              alt=""
+            />
+          </div>
+          <!-- content -->
+          <div class="pt-4 space-y-2">
+            <div class="flex items-center space-x-2">
+              <div
+                class="w-2 h-2 bg-purple-600 rounded-full group-hover:animate-ping"
+              ></div>
+              <h2 class="font-bold text-xl">Gojo Saturo</h2>
+            </div>
+            <p class="text-justify line-clamp-2">
+              Satoru Gojo is a fictional character in the manga and anime series Jujutsu Kaisen. He is a special-grade jujutsu sorcerer with white hair and striking blue eyes. He is also the first person in 400 years to inherit the "Six Eyes" and "Limitless" skills.
+            </p>
+            <button class="bg-purple-400 px-3 py-1 rounded-xl text-white font-semibold hover:scale-105 duration-150">
+              See more
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+<!-- Breakpoint Classes
+    sm	640px	  @media (min-width: 640px) { ... }
+    md	768px	  @media (min-width: 768px) { ... }
+    lg	1024px	@media (min-width: 1024px) { ... }
+    xl	1280px	@media (min-width: 1280px) { ... }
+    2xl	1536px	@media (min-width: 1536px) { ... }
+  -->
